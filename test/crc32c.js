@@ -8,10 +8,6 @@ describe('crc32c.js', function() {
   describe('calculate()', testCalculate(require('../impls/js_crc32c')));
 });
 
-describe('fast-crc32c', function() {
-  describe('calculate()', testCalculate(require('../')));
-});
-
 function testCalculate(crc32) {
   return function() {
     for (var type in sets) {

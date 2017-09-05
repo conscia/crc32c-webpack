@@ -24,6 +24,8 @@
   ],
   "devDependencies": {
     "mocha": "*",
-    "should": "*"
+    "random-string": "^0.2.0",
+    "should": "*",
+    "sse4_crc32": "^5.1.1"
   }
 }

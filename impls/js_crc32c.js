@@ -77,7 +77,7 @@ function calculate(buf, initial) {
   var crc = (initial | 0) ^ -1;
   for (var i = 0; i < buf.length; i++)
     crc = kCRCTable[(crc ^ buf[i]) & 0xff] ^ (crc >>> 8);
-  return (crc ^ -1) >>> 0;
+  return Number((crc ^ -1) >>> 0).toString(16);
 }
 
 module.exports = {

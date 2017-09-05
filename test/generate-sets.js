@@ -1,6 +1,8 @@
 var rndstr = require('random-string');
 var fs = require('fs');
-var crc32 = require('sse4_crc32').calculate;
+var crc32 = function(inp) {
+  return Number(require('sse4_crc32').calculate(inp)).toString(16);
+}
 
 var tests = {
   string: {

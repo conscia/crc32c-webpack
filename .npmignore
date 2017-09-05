@@ -1,2 +1,4 @@
 generate-tests.js
+.circleci
 test
+.gitignore

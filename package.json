@@ -13,26 +13,17 @@
     "node": ">= 0.10.0"
   },
   "scripts": {
-    "test": "mocha",
+    "test": "mocha"
   },
   "keywords": [
     "crc",
     "crc32",
     "crc32c",
     "webpack",
-    "browserify",
+    "browserify"
   ],
   "devDependencies": {
-    "benchtable": "*",
-    "blanket": "*",
     "mocha": "*",
-    "should": "*",
-  },
-  "config": {
-    "blanket": {
-      "pattern": [
-        "impls/",
-      ]
-    },
+    "should": "*"
   }
 }

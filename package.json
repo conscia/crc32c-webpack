@@ -1,5 +1,5 @@
 {
-  "name": "crc32c-webpack",
+  "name": "@conscia/crc32c-webpack",
   "description": "CRC32C algorithm for use with client-side module bundler.",
   "version": "1.1.1",
   "author": "Xiaoyi Shi <ashi009@gmail.com>",
